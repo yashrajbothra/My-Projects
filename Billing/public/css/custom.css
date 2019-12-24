@@ -1,0 +1,123 @@
+.form-small > .form-group {
+    margin-bottom: 5px;
+}
+.form-small label {
+    text-align:left ! important;
+}
+
+.form-small .table > tbody > tr > td{
+    padding: 4px;
+}
+.loading{
+    display:none;
+}
+.table-pad-min > tbody > tr > td, .table-pad-min > tbody > tr > th{
+    padding: 4px;
+}
+.table-pad-min .input-sm{
+    height:24px;
+}
+.nav-header{
+    background-image: url(patterns/header-profile.png) !important;
+}
+
+
+
+
+
+/* =========== */
+/* Sweet Alert */
+/* =========== */
+.sweet-alert {
+    background: url("../img/bg-pattern.png");
+}
+.sweet-alert h2 {
+    font-size: 24px;
+    position: relative;
+}
+.sweet-alert p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.sweet-alert .icon.success .placeholder {
+    border: 4px solid rgba(75, 211, 150, 0.3);
+}
+.sweet-alert .icon.success .line {
+    background-color: #4bd396;
+}
+.sweet-alert .icon.warning {
+    border-color: #f9c851;
+}
+.sweet-alert .icon.info {
+    border-color: #3ac9d6;
+}
+.sweet-alert .btn-warning:focus,
+.sweet-alert .btn-info:focus,
+.sweet-alert .btn-success:focus,
+.sweet-alert .btn-danger:focus,
+.sweet-alert .btn-default:focus {
+    box-shadow: none;
+}
+.sweet-alert .btn-lg {
+    font-size: 15px !important;
+    padding: 6px 14px !important;
+}
+
+.sweet-alert .btn-default {
+    background-color: #ffffff !important;
+    color: #333!important;
+    border : 1px solid;
+    border-color: rgba(49, 58, 70, 0.2);
+    border-radius: 0.4167rem;
+}
+.sweet-alert .btn-warning {
+    color: #ffffff !important;
+    background-color: #f8bd86 !important;
+}
+.sweet-alert .btn{
+    text-transform: none;
+    border-color: rgba(49, 58, 70, 0.2);
+    border-radius: 0.4167rem;
+}
+
+
+.table-min-pad > thead > tr > td, 
+.table-min-pad > tbody > tr > td, 
+.table-min-pad > tfoot > tr > td{
+    padding:0px;
+    vertical-align: middle;
+}
+.table-min-pad > thead > tr > th, 
+.table-min-pad > tbody > tr > th, 
+.table-min-pad > tfoot > tr > th{
+    padding:2px 4px;
+    vertical-align: middle;
+} 
+
+.container-fluid{
+    padding:0px !important;
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+span.hidden{
+    display: none;
+}
+select:invalid {
+    height: 0px !important;
+    opacity: 0 !important;
+    position: absolute !important;
+    display: flex !important;
+}
+
+select:invalid[multiple] {
+    margin-top: 15px !important;
+}
